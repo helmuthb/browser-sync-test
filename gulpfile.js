@@ -45,7 +45,7 @@ gulp.task('serve', function(){
         baseDir: 'public/.'
       }
   });
-  gulp.watch('./scss/*.scss', ['sass']);
+  gulp.watch('./src/sass/*.scss', ['sass']);
   gulp.watch('./**/*.html').on('change', browserSync.reload);
 });
 
